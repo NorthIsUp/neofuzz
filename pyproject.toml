@@ -10,13 +10,13 @@ readme      = "README.md"
 packages    = [{ include = "neofuzz" }]
 
 [tool.poetry.dependencies]
-python       = ">=3.8"
-scikit-learn = ">=1.1.0"
-pynndescent  = "~0.5.13"
+python       = ">=3.13"
+scikit-learn = ">=1.6.1"
+pynndescent  = ">=0.5.13"
 numpy        = ">=2.2.3"
 tokenizers   = ">=0.21.0"
-joblib       = ">=1.4.0"
-thefuzz      = ">=0.22.0"
+joblib       = ">=1.4.2"
+thefuzz      = ">=0.22.1"
 
 
 [build-system]
